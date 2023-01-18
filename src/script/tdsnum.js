@@ -38,7 +38,7 @@ const tdsnum = () => {
       result = "14";
 	} else if (tdsnum_in >= 126 && tdsnum_in < 161) {
       result = "15";
-	} else if (tdsnum_in > 161) {
+	} else {
       result = "??";
 	}
 	  

@@ -1,6 +1,6 @@
 
 body{
-    background-color: #f0f0f0;
+    
 } 
 
 .tdsnum_button{
@@ -11,6 +11,14 @@ body{
 .tdskwt_button{
     height:30px;
     width:140px;
+}
+
+.window{
+	border: 1px solid black;
+	border-width: top right;
+	background-color: #f0f0f0;
+	padding: 10px;
+	display: inline-block;
 }
 
 #kwt_out
