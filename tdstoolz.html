@@ -6,7 +6,7 @@
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>TDS Toolz v0.1</title>
+		<title>TDS Toolz v0.2</title>
 		<link rel="stylesheet" type="text/css" href="src/css/tdstoolz.css"  />
 		<link rel="icon" type="image/x-icon" href="src/img/TDS_ico.ico">
 	</head>
@@ -16,12 +16,10 @@
 	<body>
 	
 	<p>
-	<img src="src/img/tdslogo.png" alt="TDS Logo">
+	<img src="src/img/tdslogo.png" alt="TDS Logo">Toolz v0.2</img>
 	</p>
 	
-	<h2>TDS Toolz v0.1</h2>
-	
-	<p><h2> ------------------------------ </h2></p>
+	<!-- <h2>TDS Toolz v0.1</h2>  -->
 	
 	</body>
 	</form>
@@ -29,38 +27,34 @@
 	<!-- Генератор номера ТДС start -->
 	
 	<form id="TDS_Num">
-  
+	<div class="window">
 	<body>
 	
 	<script src="src/script/tdsnum.js"></script>
 	
 	<p><u>Генератор номера TDS</u></p>
 	
-	<div>
 	<input type="text" class="form-control" placeholder="Ток А" id="tdsnum_in" />
 	<input type="text" class="form-control" placeholder="ТДС.ХХХХ.ХХХ-__" id="tdsnum_out" />
-	</div>
 	
-	<div>
 	<p>
     <input type="button" class="tdsnum_button" value="ОК" class="form-button" onclick="tdsnum()" />
     </p>
-	</div>
-	
-	<p><h2> ------------------------------ </h2></p>
 	
 	</body>
+	</div>
 	</form>
 	
 	<!-- Генератор номера ТДС end -->
 	
+	<br/>
+	
 	<!-- Калькулятор кВт start -->
 	
-	<form id="TDS_kWt">
-  
-	<p><u>Калькулятор кВт</u></p>
-  
+	<form id="TDS_Num">
+	<div class="window">
 	<body>
+	<p><u>Калькулятор кВт</u></p>
 	
 	<script src="src/script/tdskwt.js"></script>
 	
@@ -97,9 +91,8 @@
     <input type="button" class="tdskwt_button" value="ОК" class="form-button" onclick="kwtcalc()" />
 	</div>
 	
-	<p><h2> ------------------------------ </h2></p>
-	
 	</body>
+	</div>
 	</form>
 	
 	<!-- Калькулятор кВт end -->
